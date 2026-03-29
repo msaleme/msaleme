@@ -1,28 +1,31 @@
-# Michael (Mike) K. Saleme
+# Michael K. Saleme
 
-I design **decision-safe architectures** so enterprises can scale AI and automation **without losing control**.
+I build open-source security testing tools for AI agent systems. 3 published papers, 3 NIST submissions, 332 adversarial tests.
 
-**Research:** Decision Load Index (DLI) — https://doi.org/10.5281/zenodo.18217577
+## 🛡️ Agent Security Harness
 
-## Executive brief (Oil & Gas)
-- Site: https://msaleme.github.io/oilgas-exec-site/
-- Book 30 min: https://calendly.com/mspro3210/30min
+**[red-team-blue-team-agent-fabric](https://github.com/msaleme/red-team-blue-team-agent-fabric)** — 332 security tests across 24 modules. MCP, A2A, L402, x402. Production-validated at 97.9% pass rate.
 
-## What I build (pinned work)
-- Start here: https://github.com/msaleme/start-here
-- Oil & Gas executive site: https://github.com/msaleme/oilgas-exec-site
-- Agent Fabric (Oil & Gas) APIs: https://github.com/msaleme/agent-fabric-oilgas-apis
-- Energy field service integration (Agentforce/ServiceNow/SAP): https://github.com/msaleme/energy-field-service-integration
-- SharePointVectors (enterprise RAG + Salesforce context): https://github.com/msaleme/SharePointVectors
-- Oracle ↔ Salesforce integration patterns: (rename in progress; will link once final)
+```bash
+pip install agent-security-harness
+```
 
-## Featured talks
-- Agent Fabric in Oil & Gas — Webinar Series (4/4): https://www.youtube.com/watch?v=XrrWj4B8HtU
-- Webinar Series (3/4): https://www.youtube.com/watch?v=ZegJdZcR1Sk
-- Webinar Series (2/4): https://www.youtube.com/watch?v=pWqkIqJFFG0
-- Webinar Series (1/4): https://www.youtube.com/watch?v=X26PE2FnFOM
+- **[GitHub Action](https://github.com/msaleme/red-team-blue-team-agent-fabric#cicd-integration)** — one line in your CI/CD pipeline
+- **[MCP Server](https://github.com/msaleme/red-team-blue-team-agent-fabric#mcp-server)** — any AI agent can invoke security tests
+- **[AIUC-1 Prep](https://github.com/msaleme/red-team-blue-team-agent-fabric#aiuc-1-certification-prep)** — maps to all 24 certification requirements
 
-## Social
-- LinkedIn: https://www.linkedin.com/in/mikesaleme/
-- X: https://x.com/mikesaleme
-- YouTube: https://www.youtube.com/@michaelsaleme7028
+## 📄 Published Research
+
+| Paper | DOI |
+|---|---|
+| Decision Load Index (DLI) | [10.5281/zenodo.18217577](https://doi.org/10.5281/zenodo.18217577) |
+| Constitutional Self-Governance (CSG) | [10.5281/zenodo.19162104](https://doi.org/10.5281/zenodo.19162104) |
+| Normalization of Deviance (NoD) | [10.5281/zenodo.19195516](https://doi.org/10.5281/zenodo.19195516) |
+
+## 🔗 Links
+
+- **Start here:** [msaleme/start-here](https://github.com/msaleme/start-here)
+- **X:** [@mikesaleme](https://x.com/mikesaleme)
+- **LinkedIn:** [mikesaleme](https://www.linkedin.com/in/mikesaleme/)
+- **PyPI:** [agent-security-harness](https://pypi.org/project/agent-security-harness/) — 109 downloads/day
+- **Book time:** [Calendly](https://calendly.com/mspro3210/new-meeting) | trusted@synapseops.com
