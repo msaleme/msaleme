@@ -2,7 +2,7 @@
 
 **Decision Governance for Autonomous Agents** — I research how AI agents fail under adversarial conditions, publish the findings, and ship the tools to test for them.
 
-5 published papers | 3 NIST submissions | CVE-2026-25253 | 358 security tests | PyPI package
+5 published papers | 3 NIST submissions | CVE-2026-25253 | 430 security tests | PyPI package
 
 ---
 
@@ -24,7 +24,7 @@ I study the gap between *who an agent is* and *how it behaves* — what I call t
 
 ## Agent Security Harness
 
-The research above is implemented as an open-source testing framework: **358 executable tests across 24 modules**, covering MCP, A2A, L402, and x402 wire protocols.
+The research above is implemented as an open-source testing framework: **430 executable tests across 24 modules**, covering MCP, A2A, L402, and x402 wire protocols.
 
 **[red-team-blue-team-agent-fabric](https://github.com/msaleme/red-team-blue-team-agent-fabric)** — Production-validated at 97.9% pass rate (Wilson 95% CI [0.943, 0.994]).
 
