@@ -1,0 +1,45 @@
+name: Weekly product brief
+
+# Runs Friday 4:00 PM America/Chicago (21:00 UTC during CDT, 22:00 UTC during CST).
+# Using 21:00 UTC — adjust seasonally if that matters to you.
+on:
+  schedule:
+    - cron: "0 21 * * 5"
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  issues: write
+  pull-requests: read
+
+jobs:
+  brief:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # Requires repository secret: ANTHROPIC_API_KEY
+      # See https://github.com/anthropics/claude-code-action for the latest config.
+      - name: Run Claude
+        uses: anthropics/claude-code-action@v1
+        with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          prompt_file: routines/weekly-product-brief.md
+          allowed_tools: "Bash,Read,Write,mcp__github__*"
+          # Post the result as an issue. The action will execute the prompt
+          # and write output to $GITHUB_OUTPUT.output, which we capture below.
+        id: claude
+
+      - name: Create issue with brief
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const output = `${{ steps.claude.outputs.output }}`;
+            const date = new Date().toISOString().slice(0, 10);
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `Weekly product brief — week ending ${date}`,
+              body: output || "Claude produced no output. Check the Action logs.",
+              labels: ["routine:weekly-brief"],
+            });

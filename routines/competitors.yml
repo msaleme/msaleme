@@ -1,0 +1,53 @@
+# Competitor watch list for /competitor-watch
+# Edit freely. Each entry needs: name, category, urls[].
+
+targets:
+  - name: Invariant Labs
+    category: agent-security-tooling
+    urls:
+      - https://invariantlabs.ai/blog
+
+  - name: Lakera
+    category: llm-security
+    urls:
+      - https://www.lakera.ai/blog
+
+  - name: Protect AI
+    category: ml-security-platform
+    urls:
+      - https://protectai.com/blog
+
+  - name: Robust Intelligence
+    category: ml-security-platform
+    urls:
+      - https://www.robustintelligence.com/blog
+
+  - name: HiddenLayer
+    category: ml-security-platform
+    urls:
+      - https://hiddenlayer.com/blog
+
+  - name: Anthropic (policy/safety)
+    category: lab-policy
+    urls:
+      - https://www.anthropic.com/news
+
+  - name: NIST AI
+    category: standards
+    urls:
+      - https://www.nist.gov/artificial-intelligence
+
+  - name: OWASP GenAI
+    category: standards
+    urls:
+      - https://genai.owasp.org/
+
+  - name: MITRE ATLAS
+    category: standards
+    urls:
+      - https://atlas.mitre.org/
+
+  - name: MCP spec releases
+    category: protocol
+    urls:
+      - https://github.com/modelcontextprotocol/specification/releases

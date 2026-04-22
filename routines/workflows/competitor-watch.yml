@@ -1,0 +1,53 @@
+name: Competitor watch
+
+# Runs Monday 8:00 AM America/Chicago (13:00 UTC during CDT, 14:00 UTC during CST).
+# Using 13:00 UTC — adjust seasonally if that matters to you.
+on:
+  schedule:
+    - cron: "0 13 * * 1"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write        # to commit updated snapshot cache
+  issues: write
+
+jobs:
+  watch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run Claude
+        uses: anthropics/claude-code-action@v1
+        with:
+          anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+          prompt_file: routines/competitor-watch.md
+          allowed_tools: "Bash,Read,Write,WebFetch,WebSearch"
+        id: claude
+
+      - name: Commit updated snapshot cache
+        run: |
+          if [[ -n "$(git status --porcelain routines/.competitor-cache)" ]]; then
+            git config user.name  "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add routines/.competitor-cache
+            git commit -m "routines: update competitor snapshot cache"
+            git push
+          fi
+
+      - name: Create issue with report
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const output = `${{ steps.claude.outputs.output }}`;
+            const date = new Date().toISOString().slice(0, 10);
+            // Only open an issue when something actually changed.
+            if (output && !output.startsWith("No changes")) {
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title: `Competitor watch — ${date}`,
+                body: output,
+                labels: ["routine:competitor-watch"],
+              });
+            }
