@@ -56,6 +56,7 @@ agent-security test mcp --url http://your-server
 
 ## Connect
 
+- **ORCID:** [0009-0003-6736-1900](https://orcid.org/0009-0003-6736-1900)
 - **X:** [@mikesaleme](https://x.com/mikesaleme)
 - **LinkedIn:** [mikesaleme](https://www.linkedin.com/in/mikesaleme/)
 - **PyPI:** [agent-security-harness](https://pypi.org/project/agent-security-harness/)
