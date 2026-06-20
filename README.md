@@ -2,7 +2,7 @@
 
 **Decision Governance for Autonomous Agents** — I research how AI agents fail under adversarial conditions, publish the findings, and ship the tools to test for them.
 
-5 published papers | 3 NIST submissions | CVE-2026-25253 | 430 security tests | PyPI package
+CVE-2026-25253 reproduction · 5 peer-citable papers (DOIs) · 3 NIST submissions · 470 executable security tests
 
 ---
 
@@ -24,16 +24,16 @@ I study the gap between *who an agent is* and *how it behaves* — what I call t
 
 ## Agent Security Harness
 
-The research above is implemented as an open-source testing framework: **430 executable tests across 29 modules**, covering MCP, A2A, L402, and x402 wire protocols.
+The research above is implemented as an open-source testing framework: **470 executable tests across 29 modules**, covering MCP, A2A, L402, and x402 wire protocols.
 
-**[red-team-blue-team-agent-fabric](https://github.com/msaleme/red-team-blue-team-agent-fabric)** — Production-validated at 97.9% pass rate (Wilson 95% CI [0.943, 0.994]).
+**[red-team-blue-team-agent-fabric](https://github.com/msaleme/red-team-blue-team-agent-fabric)** (v4.4.2) — Production-validated at 97.9% pass rate (Wilson 95% CI [0.943, 0.994]).
 
 ```bash
 pip install agent-security-harness
 agent-security test mcp --url http://your-server
 ```
 
-- **[GitHub Action](https://github.com/msaleme/red-team-blue-team-agent-fabric#cicd-integration)** — gate deploys in one line
+- **[GitHub Action](https://github.com/msaleme/red-team-blue-team-agent-fabric#cicd-integration)** — CI/CD integration
 - **[MCP Server](https://github.com/msaleme/red-team-blue-team-agent-fabric#mcp-server)** — any AI agent can invoke security tests directly
 - **[AIUC-1 Prep](https://github.com/msaleme/red-team-blue-team-agent-fabric#aiuc-1-certification-prep)** — maps to 15 of 20 testable certification requirements
 - **CVE-2026-25253** (CVSS 8.8) — our MCP tests catch this exact supply chain attack vector
@@ -42,7 +42,7 @@ agent-security test mcp --url http://your-server
 
 ## Enterprise Architecture
 
-15+ years building production integration systems across Oil & Gas, Energy/Utilities, and CPG — MuleSoft, Salesforce, SAP, Oracle, Kafka, Azure.
+30 years building production integration systems across Oil & Gas, Energy/Utilities, and CPG — since 1996, for oil supermajors and global energy majors. MuleSoft, Salesforce, SAP, Oracle, Kafka, Azure.
 
 | Repository | Description |
 |---|---|
@@ -60,4 +60,4 @@ agent-security test mcp --url http://your-server
 - **X:** [@mikesaleme](https://x.com/mikesaleme)
 - **LinkedIn:** [mikesaleme](https://www.linkedin.com/in/mikesaleme/)
 - **PyPI:** [agent-security-harness](https://pypi.org/project/agent-security-harness/)
-- **Book time:** [Calendly](https://calendly.com/mspro3210/new-meeting) | trusted@synapseops.com
+- **Book time:** [Calendly](https://calendly.com/mspro3210/new-meeting)
