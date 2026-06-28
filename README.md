@@ -1,12 +1,20 @@
 # Michael K. Saleme
 
-**Decision Governance for Autonomous Agents** — I research how AI agents fail under adversarial conditions, publish the findings, and ship the tools to test for them.
+**Enterprise architect.** 30 years building production integration and architecture across Oil & Gas, Energy/Utilities, and CPG, since 1996, for oil supermajors and global energy majors. MuleSoft, Salesforce, SAP, Oracle, Kafka, Azure.
 
-CVE-2026-25253 reproduction · 5 peer-citable papers (DOIs) · 3 NIST submissions · 470 executable security tests
+I am defining **Enterprise Agent Architecture**: the fifth domain enterprise architecture needs for a workforce of humans and AI agents. TOGAF, Zachman, SABSA, and NIST model what the enterprise builds and runs. None model a non-human actor that holds delegated authority, acts autonomously, and composes tools it was never explicitly granted. That gap is the work.
+
+`CVE-2026-25253 reproduction · 5 peer-citable papers (DOIs) · 3 NIST submissions · 470 executable security tests`
+
+**Start here:** [msaleme/start-here](https://github.com/msaleme/start-here)
 
 ---
 
-## Research
+## The evidence
+
+I do not just write about the agent workforce. I build the tools that prove how it fails and the research that measures it.
+
+### Research
 
 I study the gap between *who an agent is* and *how it behaves* — what I call the **WHO vs. HOW problem**. Identity and permissions don't prevent an authorized agent from being manipulated into unsafe decisions. My work formalizes this gap and provides empirical evidence.
 
@@ -20,9 +28,7 @@ I study the gap between *who an agent is* and *how it behaves* — what I call t
 
 **Standards engagement:** 3 NIST submissions — CAISI RFI (Mar 1), NIST-CONCEPT-1 (Mar 12), NCCoE follow-up (Mar 21, 2026).
 
----
-
-## Agent Security Harness
+### Agent Security Harness
 
 The research above is implemented as an open-source testing framework: **470 executable tests across 29 modules**, covering MCP, A2A, L402, and x402 wire protocols.
 
