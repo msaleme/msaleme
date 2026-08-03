@@ -54,7 +54,6 @@ agent-security test mcp --url http://your-server
 
 | Repository | Description |
 |---|---|
-| [agent-fabric-oilgas-apis](https://github.com/msaleme/agent-fabric-oilgas-apis) | OpenAPI 3.1 specs for Agent Fabric in Oil & Gas |
 | [energy-field-service-integration](https://github.com/msaleme/energy-field-service-integration) | Agentforce + ServiceNow + SAP field service |
 | [energy-api-evolution](https://github.com/msaleme/energy-api-evolution) | 36 APIs unifying grid ops, renewables, building optimization |
 | [oracle-fusion-mulesoft-best-practices](https://github.com/msaleme/oracle-fusion-mulesoft-best-practices) | Oracle Fusion Cloud integration patterns |
