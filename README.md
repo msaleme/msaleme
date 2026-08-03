@@ -1,6 +1,6 @@
 # Michael K. Saleme
 
-**Enterprise architect.** 30 years building production integration and architecture across Oil & Gas, Energy/Utilities, and CPG, since 1996, for oil supermajors and global energy majors. MuleSoft, Salesforce, SAP, Oracle, Kafka, Azure.
+**Enterprise architect.** 30 years building production integration and architecture across Oil & Gas, Energy/Utilities, and CPG since 1996.
 
 I am defining **Enterprise Agent Architecture**: the fifth domain enterprise architecture needs for a workforce of humans and AI agents. TOGAF, Zachman, SABSA, and NIST model what the enterprise builds and runs. None model a non-human actor that holds delegated authority, acts autonomously, and composes tools it was never explicitly granted. That gap is the work.
 
@@ -50,14 +50,7 @@ agent-security test mcp --url http://your-server
 
 ## Enterprise Architecture
 
-30 years building production integration systems across Oil & Gas, Energy/Utilities, and CPG — since 1996, for oil supermajors and global energy majors. MuleSoft, Salesforce, SAP, Oracle, Kafka, Azure.
-
-| Repository | Description |
-|---|---|
-| [energy-field-service-integration](https://github.com/msaleme/energy-field-service-integration) | Agentforce + ServiceNow + SAP field service |
-| [energy-api-evolution](https://github.com/msaleme/energy-api-evolution) | 36 APIs unifying grid ops, renewables, building optimization |
-| [oracle-fusion-mulesoft-best-practices](https://github.com/msaleme/oracle-fusion-mulesoft-best-practices) | Oracle Fusion Cloud integration patterns |
-| [SharePointVectors](https://github.com/msaleme/SharePointVectors) | RAG pipeline: SharePoint to vectors to Salesforce |
+30 years building production integration systems across Oil & Gas, Energy/Utilities, and CPG since 1996.
 
 ---
 
@@ -67,4 +60,3 @@ agent-security test mcp --url http://your-server
 - **X:** [@mikesaleme](https://x.com/mikesaleme)
 - **LinkedIn:** [mikesaleme](https://www.linkedin.com/in/mikesaleme/)
 - **PyPI:** [agent-security-harness](https://pypi.org/project/agent-security-harness/)
-- **Book time:** [Calendly](https://calendly.com/mspro3210/new-meeting)
