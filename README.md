@@ -6,7 +6,7 @@ I am defining **Enterprise Agent Architecture**: the fifth domain enterprise arc
 
 **Read the series:** [Enterprise Agent Architecture on Substack](https://msale00.substack.com) — the fifth domain, one part at a time.
 
-`CVE-2026-25253 reproduction · 5 peer-citable papers (DOIs) · 3 NIST submissions · 603 executable security tests`
+`5 peer-citable papers (DOIs) · 3 NIST submissions · 603 executable security tests`
 
 **Start here:** [msaleme/start-here](https://github.com/msaleme/start-here)
 
@@ -43,8 +43,7 @@ agent-security test mcp --url http://your-server
 
 - **[GitHub Action](https://github.com/msaleme/red-team-blue-team-agent-fabric#cicd-integration)** — CI/CD integration
 - **[MCP Server](https://github.com/msaleme/red-team-blue-team-agent-fabric#mcp-server)** — any AI agent can invoke security tests directly
-- **[AIUC-1 Prep](https://github.com/msaleme/red-team-blue-team-agent-fabric#aiuc-1-certification-prep)** — maps to 15 of 20 testable certification requirements
-- **CVE-2026-25253** (CVSS 8.8) — our MCP tests catch this exact supply chain attack vector
+- **[AIUC-1 Prep](https://github.com/msaleme/red-team-blue-team-agent-fabric#aiuc-1-certification-prep)** — maps to 19 of 20 testable requirements in the AIUC-1 2026-Q1/Q2 set
 
 ---
 
