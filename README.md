@@ -4,9 +4,9 @@
 
 I am defining **Enterprise Agent Architecture**: the fifth domain enterprise architecture needs for a workforce of humans and AI agents. TOGAF, Zachman, SABSA, and NIST model what the enterprise builds and runs. None model a non-human actor that holds delegated authority, acts autonomously, and composes tools it was never explicitly granted. That gap is the work.
 
-**Read the series:** [Enterprise Agent Architecture on Substack](https://msale00.substack.com) — the fifth domain, one part at a time.
+**Read the series:** [Enterprise Agent Architecture](https://cognitivethoughtengine.com/eaa/) — the fifth domain, one part at a time. Also on [Substack](https://msale00.substack.com).
 
-`5 peer-citable papers (DOIs) · 3 NIST submissions · 603 executable security tests`
+`Public DOI-backed research · 3 NIST submissions · 603 executable security tests (v4.15.0, 43 test-bearing modules)`
 
 **Start here:** [msaleme/start-here](https://github.com/msaleme/start-here)
 
