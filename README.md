@@ -34,7 +34,7 @@ I study the gap between *who an agent is* and *how it behaves* — what I call t
 
 The research above is implemented as an open-source testing framework: **603 executable tests across 44 modules**, covering MCP, A2A, L402, and x402 wire protocols.
 
-**[red-team-blue-team-agent-fabric](https://github.com/msaleme/red-team-blue-team-agent-fabric)** (v4.4.2) — Production-validated at 97.9% pass rate (Wilson 95% CI [0.943, 0.994]).
+**[red-team-blue-team-agent-fabric](https://github.com/msaleme/red-team-blue-team-agent-fabric)** (v4.15.0) — 97.9% pass rate measured at v4.4.2 (Wilson 95% CI [0.943, 0.994]), not re-measured since.
 
 ```bash
 pip install agent-security-harness
