@@ -6,7 +6,7 @@ I am defining **Enterprise Agent Architecture**: the fifth domain enterprise arc
 
 **Read the series:** [Enterprise Agent Architecture](https://cognitivethoughtengine.com/eaa/) — the fifth domain, one part at a time. Also on [Substack](https://msale00.substack.com).
 
-`Public DOI-backed research · public standards submissions · Agent Security Harness v4.15.0: 603 executable IDs across 43 test-bearing modules`
+`Public DOI-backed research · public standards submissions · Agent Security Harness v4.15.0: 603 executable IDs across 43 test-bearing modules — dated record`
 
 **Evidence record:** [PubPoint Facts & Evidence](https://pubpoint.com/facts-evidence/)
 
