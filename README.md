@@ -6,7 +6,7 @@ I am defining **Enterprise Agent Architecture**: the fifth domain enterprise arc
 
 **Read the series:** [Enterprise Agent Architecture](https://cognitivethoughtengine.com/eaa/) — the fifth domain, one part at a time. Also on [Substack](https://msale00.substack.com).
 
-`Public DOI-backed research · public standards submissions · Agent Security Harness v4.15.0: 603 executable IDs across 43 test-bearing modules — dated record`
+`Public DOI-backed research · public standards submissions · Agent Security Harness v4.21.3: 623 executable IDs across 45 test-bearing modules — dated record`
 
 **Evidence record:** [PubPoint Facts & Evidence](https://pubpoint.com/facts-evidence/)
 
@@ -22,6 +22,7 @@ I study the gap between *who an agent is* and *how it behaves* — what I call t
 
 | Record | DOI | Evidence boundary |
 |---|---|---|
+| **From Approval to Execution: Assurance Boundaries in Three Agent Protocols** | [10.5281/zenodo.22847475](https://doi.org/10.5281/zenodo.22847475) | Preprint v1.0, September 19, 2026. Not peer-reviewed; no claim of independent validation, certification, adoption, or production effectiveness. |
 | **Decision Load Index (DLI)** | [10.5281/zenodo.18217577](https://doi.org/10.5281/zenodo.18217577) | First-party public research record; citable, not clinical validation or product-efficacy evidence. |
 | **Constitutional Self-Governance (CSG)** | [10.5281/zenodo.19162104](https://doi.org/10.5281/zenodo.19162104) | First-party public research record; the record and stated methods define claim scope. |
 | **Normalization of Deviance (NoD)** | [10.5281/zenodo.19195516](https://doi.org/10.5281/zenodo.19195516) | First-party public research record; citable, not independent validation. |
@@ -32,7 +33,7 @@ I study the gap between *who an agent is* and *how it behaves* — what I call t
 
 ### Agent Security Harness
 
-The research above is implemented as an open-source adversarial evaluation framework. Release v4.15.0 has **603 unique executable IDs across 43 test-bearing modules**. The dated record distinguishes that release inventory from current `main` and explains the verdict-producing versus informational-check split.
+The research above is implemented as an open-source adversarial evaluation framework. [Release v4.21.3](https://github.com/msaleme/red-team-blue-team-agent-fabric/releases/tag/v4.21.3) has **623 unique executable IDs across 45 test-bearing modules**. The dated record distinguishes that release inventory from current `main` and explains the verdict-producing versus informational-check split.
 
 **[red-team-blue-team-agent-fabric](https://github.com/msaleme/red-team-blue-team-agent-fabric)** · [dated inventory and evidence limits](https://pubpoint.com/facts-evidence/)
 
