@@ -20,14 +20,17 @@ I do not just write about the agent workforce. I build the tools that prove how 
 
 I study the gap between *who an agent is* and *how it behaves* — what I call the **WHO vs. HOW problem**. Identity and permissions don't prevent an authorized agent from being manipulated into unsafe decisions. My work formalizes this gap and provides empirical evidence.
 
-| Record | DOI | Evidence boundary |
+Publication links use concept DOIs for the evolving record; named editions retain version DOIs.
+
+| Record | Concept DOI | Evidence boundary |
 |---|---|---|
-| **From Approval to Execution: Assurance Boundaries in Three Agent Protocols** | [10.5281/zenodo.22847475](https://doi.org/10.5281/zenodo.22847475) | Preprint v1.0, September 19, 2026. Not peer-reviewed; no claim of independent validation, certification, adoption, or production effectiveness. |
-| **Decision Load Index (DLI)** | [10.5281/zenodo.18217577](https://doi.org/10.5281/zenodo.18217577) | First-party public research record; citable, not clinical validation or product-efficacy evidence. |
-| **Constitutional Self-Governance (CSG)** | [10.5281/zenodo.19162104](https://doi.org/10.5281/zenodo.19162104) | First-party public research record; the record and stated methods define claim scope. |
-| **Normalization of Deviance (NoD)** | [10.5281/zenodo.19195516](https://doi.org/10.5281/zenodo.19195516) | First-party public research record; citable, not independent validation. |
-| **Beyond Identity Governance** | [10.5281/zenodo.19343034](https://doi.org/10.5281/zenodo.19343034) | First-party public research record; citable, not independent validation. |
-| **Community-Driven Security** | [10.5281/zenodo.19343108](https://doi.org/10.5281/zenodo.19343108) | First-party public research record; citable, not independent validation. |
+| **Deception Primitives at an MCP-Aware Enforcement Point: A Bounded Reference Design for Honeytoken, Decoy-Tool, and Breadcrumb Controls** | [10.5281/zenodo.22859851](https://doi.org/10.5281/zenodo.22859851) | Preprint; [pinned v1.1](https://doi.org/10.5281/zenodo.22860118), September 20, 2026. Reference design with reported library and bounded gateway behavior tests. Detection performance and operational effectiveness remain unvalidated; not production or independent validation. |
+| **From Approval to Execution: Assurance Boundaries in Three Agent Protocols** | [10.5281/zenodo.22847474](https://doi.org/10.5281/zenodo.22847474) | Preprint; [pinned v1.1](https://doi.org/10.5281/zenodo.22848516), September 19, 2026. Not peer-reviewed; no claim of independent validation, certification, adoption, or production effectiveness. |
+| **Decision Load Index (DLI)** | [10.5281/zenodo.18207847](https://doi.org/10.5281/zenodo.18207847) | First-party public research record; citable, not clinical validation or product-efficacy evidence. |
+| **Constitutional Self-Governance (CSG)** | [10.5281/zenodo.19162103](https://doi.org/10.5281/zenodo.19162103) | First-party public research record; the record and stated methods define claim scope. |
+| **Normalization of Deviance (NoD)** | [10.5281/zenodo.19195515](https://doi.org/10.5281/zenodo.19195515) | First-party public research record; citable, not independent validation. |
+| **Beyond Identity Governance** | [10.5281/zenodo.19343033](https://doi.org/10.5281/zenodo.19343033) | First-party public research record; citable, not independent validation. |
+| **Community-Driven Security** | [10.5281/zenodo.19343107](https://doi.org/10.5281/zenodo.19343107) | First-party public research record; citable, not independent validation. |
 
 **Standards engagement:** public submissions are contributions, not adoption or acknowledgment by a receiving body. Dated evidence and boundaries: [PubPoint Facts & Evidence](https://pubpoint.com/facts-evidence/).
 
