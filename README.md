@@ -6,7 +6,7 @@ I am defining **Enterprise Agent Architecture**: the fifth domain enterprise arc
 
 **Read the series:** [Enterprise Agent Architecture](https://cognitivethoughtengine.com/eaa/) — the fifth domain, one part at a time. Also on [Substack](https://msale00.substack.com).
 
-`Public DOI-backed research · public standards submissions · Agent Security Harness v4.21.3: 623 executable IDs across 45 test-bearing modules — dated record`
+`Public DOI-backed research · public standards submissions · Agent Security Harness v4.31.0: 661 executable IDs across 50 test-bearing modules — dated record`
 
 **Evidence record:** [PubPoint Facts & Evidence](https://pubpoint.com/facts-evidence/)
 
@@ -36,7 +36,7 @@ Publication links use concept DOIs for the evolving record; named editions retai
 
 ### Agent Security Harness
 
-The research above is implemented as an open-source adversarial evaluation framework. [Release v4.21.3](https://github.com/msaleme/red-team-blue-team-agent-fabric/releases/tag/v4.21.3) has **623 unique executable IDs across 45 test-bearing modules**. The dated record distinguishes that release inventory from current `main` and explains the verdict-producing versus informational-check split.
+The research above is implemented as an open-source adversarial evaluation framework. [Release v4.31.0](https://github.com/msaleme/red-team-blue-team-agent-fabric/releases/tag/v4.31.0) has **661 unique executable IDs across 50 test-bearing modules**. The dated record distinguishes that release inventory from current `main` and explains the verdict-producing versus informational-check split.
 
 **[red-team-blue-team-agent-fabric](https://github.com/msaleme/red-team-blue-team-agent-fabric)** · [dated inventory and evidence limits](https://pubpoint.com/facts-evidence/)
 
